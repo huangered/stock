@@ -1,5 +1,4 @@
-all:
-	ocamlc src/a.ml
+build:
+	ocaml setup.ml -build
 clean:
-	rm a.out
-	rm src/*.cm*
+	ocaml setup.ml -clean
